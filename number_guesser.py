@@ -28,8 +28,11 @@ while True:
         print("you got it! ")
         break
     else:
-        print("wrong")
-    if guess == 3:
+        if user > random_number:
+            print("too high!")
+        else:
+            print("too low!")
+    if guess ==  3:
         print("you lost")
         break
 
